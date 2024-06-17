@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    /* Border-collapse: ele junta as bordas */
+    border-collapse: collapse;
+    width: 80%;
+    margin: 30px auto;
+    color: rgb(71, 66, 66);
+}
+
+thead th{
+    /* Estilizando o paragráfo */
+    height: 40px;
+    background-color: rgb(8, 218, 218);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+th, td{
+    /* Estilizando os dados */
+    padding: 5px;
+    font-size: 14px;
+}
+
+tbody tr {
+    height: 60px;
+}
+
+tbody tr:hover{
+    /* Passando o ponteiro do mouse */
+    background-color: rgb(108, 250, 250);
+    cursor: pointer;
+}
+
+tfoot td{
+    border-top: 20px solid rgb(8, 218, 218);
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 900;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(202, 241, 241);
+}
+
+th:nth-child(odd), td:nth-child(odd){
+    /* Muda os elementos para esquerdo */
+    text-align: center;
+    width: 20%;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
